@@ -1,0 +1,163 @@
+@import url(./fonts.css);
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.img{
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 79px;
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px;
+    gap: 30px;
+    text-align: center;
+    color: #8C8A8A;
+    padding-bottom: 38px;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0  auto;
+}
+ 
+.menu__link{
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #8C8A8A;
+    text-decoration: none;
+    font-family:'Roboto-Regular',sans-serif;
+    
+}
+
+
+
+
+.banner{
+    background: url(../img/banner.png);
+    max-width:1110px;
+    height:450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 auto; 
+    
+}
+
+
+
+h2{
+   
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Roboto-Bold', sans-serif;
+    color: #4581B7; 
+    margin-bottom: 25px;
+
+}
+.aboutme__wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    
+}
+.aboutme__desc{
+    background: #F0F0F0;
+    padding: 30px;
+    width: 100%;
+    color:#808080;
+    max-width: 730px;
+    font-family: 'Roboto-Regular', sans-serif;
+    
+}
+
+.aboutme__desc2{
+    background: #F0F0F0;
+    padding:  30px;
+    margin-left: 30px;
+    max-width: 350px;
+    width: 100%;
+    color: #808080;
+    font-family: 'Roboto-Regular', sans-serif;
+} 
+
+p{
+    margin-top: 30px;
+    font-family: 'Roboto-Regular',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color:#808080;
+
+}
+.aboutme {
+    height: 467px;
+    
+}
+
+.theend__wrap{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.theend{
+    background: #F0F0F0;
+    color: #808080;;
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-bottom: 30px;
+    
+    
+}
+
+.theend__img{
+    margin-left: 40px;
+    padding:  15px;
+}
+
+.theend__desc{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    padding-bottom: 46px;
+    
+}
+
+.number{
+    margin-top: 10px;
+    font-family: 'Roboto-Bold',sans-serif;
+    font-size: 25px;
+    margin-left: 45px;
+    
+   
+}
+
+
+
+  
