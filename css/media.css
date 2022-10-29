@@ -1,8 +1,36 @@
-@media screen  and  (max-width: 662px) {
+@media screen  and  (max-width: 658px) {
    .menu{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 15px;
    }
+   
+   .menu__link{
+      font-size: 17px;
+      
+   }
+   
+   .img {
+    padding-top: 20px;
+    padding-bottom: 30px;
+   }
 
 }
+@media screen and  (max-width: 858px) {
+    .aboutme__wrap{
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .aboutme__desc{
+        width: 450px;
+    }
+
+    .d{
+        font-size: 20px;
+    }
+}
+
+
     
